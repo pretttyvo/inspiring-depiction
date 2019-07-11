@@ -143,6 +143,10 @@ def gallery():
 def result():
     return render_template("result.html") 
 
+@app.route('/style')
+def style():
+    return render_template("style.html") 
+
 if __name__ == "__main__":
     app.run(debug=True)
 
