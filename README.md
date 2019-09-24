@@ -35,4 +35,6 @@ We used flask to connect our back end and front end. In flask, we created mutlip
 For the front end, we coded multiple HTML pages and styled using CSS with [bootstrap.](https://colab.research.google.com/github/tensorflow/models/blob/master/research/nst_blogpost/4_Neural_Style_Transfer_with_Eager_Execution.ipynb) Using JavaScript, we created an interactive user interface that allowed for image uploads, downloads, and quality selection. For the quality selection, we increased or lowered our iterations accordingly.
 
 ### Launch
+One of the challenges we faced launching the application was the speed of the style transfer. We found that at higher iterations, the app would crash or the site would shut down due to the page not loading. In order to minimize this effect, we reduced the image to manageable sizes and lowered the iterations. 
+
 We've went ahead and launched it on [heroku](https://inspire-depiction.herokuapp.com/). We're still working on a few tweaks, but check it out!
