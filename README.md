@@ -1,5 +1,5 @@
 # Inspiring Depiction
-              ![Christina's World](https://upload.wikimedia.org/wikipedia/en/a/a2/Christinasworld.jpg)
+![Christina's World](https://upload.wikimedia.org/wikipedia/en/a/a2/Christinasworld.jpg)
 
 We were inspired by artists that have shaped our view on reality. From Van Gough to Dali, we wondered what Davinci would paint if he were living in our current time period. To experiment and experience what their pieces may appear as in our day and age, we created a style transfer based off of a [colab neural style transfer.](https://colab.research.google.com/github/tensorflow/models/blob/master/research/nst_blogpost/4_Neural_Style_Transfer_with_Eager_Execution.ipynb)
 
@@ -23,4 +23,5 @@ We used flask to connect our back end and front end. In flask, we created mutlip
 ### Front End
 For the front end, we coded multiple HTML pages and styled using CSS with [bootstrap.](https://colab.research.google.com/github/tensorflow/models/blob/master/research/nst_blogpost/4_Neural_Style_Transfer_with_Eager_Execution.ipynb) Using JavaScript, we created an interactive user interface that allowed for image uploads, downloads, and quality selection. For the quality selection, we increased or lowered our iterations accordingly.
 
-![](https://upload.wikimedia.org/wikipedia/commons/8/81/Edgar_Degas_-_The_Ballet_Class_-_Google_Art_Project.jpg)
+### Launch
+We've went ahead and launched it on [heroku](https://inspire-depiction.herokuapp.com/). We're still working on a few tweaks, but check it out!
