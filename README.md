@@ -1,6 +1,6 @@
 # Inspiring Depiction
 
-![](https://en.wikipedia.org/wiki/The_Persistence_of_Memory#/media/File:The_Persistence_of_Memory.jpg)
+![](https://upload.wikimedia.org/wikipedia/en/d/dd/The_Persistence_of_Memory.jpg)
 
 We were inspired by artists that have shaped our view on reality. From Van Gough to Dali, we wondered what Davinci would paint if he were living in our current time period. To experiment and experience what their pieces may appear as in our day and age, we created a style transfer based off of a [colab neural style transfer.](https://colab.research.google.com/github/tensorflow/models/blob/master/research/nst_blogpost/4_Neural_Style_Transfer_with_Eager_Execution.ipynb)
 
