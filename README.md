@@ -3,14 +3,14 @@
 
 We were inspired by artists that have shaped our view on reality. From Van Gough to Dali, we wondered what Davinci would paint if he were living in our current time period. To experiment and experience what their pieces may appear as in our day and age, we created a style transfer based off of a [colab neural style transfer.](https://colab.research.google.com/github/tensorflow/models/blob/master/research/nst_blogpost/4_Neural_Style_Transfer_with_Eager_Execution.ipynb)
 
-We used the base code and built up to a user interface. Our focus was on understanding the fundamentals of machine learning and create a fun application that would connect classical art with modern day snapshots. 
+We used the base code and built up to a user interface. Our focus was on understanding the fundamentals of machine learning and creating a fun application that would connect classical art with modern day snapshots. 
 
 ## Application
 
 ### Scraping
 We scraped for the most [influential artists](http://www.theartwolf.com/articles/most-important-painters.htm) and fed the names into an [image site](https://www.wikiart.org/en/) which allowed us to extract famous pieces. 
 
-We debated placing the data into a database, such as MongoDB, but ultimately decided to leave the data in a csv form.
+We debated placing the data into a database, such as MongoDB, but ultimately decided to leave the data in a csv form due to the small amount of dat.
 
 ### Back End
 For our backend, we used python to load in our two images, an image with the desired style (style image) and an image that the style would be applied to (content image). 
