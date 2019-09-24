@@ -13,7 +13,9 @@ We scraped for the most [influential artists](http://www.theartwolf.com/articles
 We debated placing the data into a database, such as MongoDB, but ultimately decided to leave the data in a csv form.
 
 ### Back End
-For our backend, we used python to load in our two images, an image with the desired style (style image) and an image that the style would be applied to (content image). From there, the content image would be copied (input image), keras and tensorflow would be used to extract the styles from the style image and applied to the input image. The increase in iterations would ultimately increase the style quality transferred, but also increase the time investment. 
+For our backend, we used python to load in our two images, an image with the desired style (style image) and an image that the style would be applied to (content image). 
+![content image](/static/display/content.png)
+From there, the content image would be copied (input image), keras and tensorflow would be used to extract the styles from the style image and applied to the input image. The increase in iterations would ultimately increase the style quality transferred, but also increase the time investment. 
 
 As the iterations increased, the image comparison of the input against the style would decrease in variance, ultimately reaching a point that the visual depiction would be the content with the desired style.
 
